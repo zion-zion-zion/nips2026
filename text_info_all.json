@@ -47,7 +47,7 @@
   },
   {
     "image_input": "text_input_all/docstructbench_llm-raw-scihub-o.O-chem.200700133.pdf_6.jpg",
-    "instruction": "Delete \"W.-Y. Sun et al.\"",
+    "instruction": "Delete \"Author et al.\"",
     "image_output": "text_output_all/49074_docstructbench_llm-raw-scihub-o.O-chem.200700133.pdf_6.jpg",
     "id": 49074,
     "label_output": [
@@ -1013,7 +1013,7 @@
   },
   {
     "image_input": "text_input_all/newspaper_TheBostonGlobe-2025-1-8@magazinesclubnew_page_003.png",
-    "instruction": "Delete the text: \"S. Korea court issues new arrest warrant for Yuon\" and the associated body text below it, starting with \"DELHI – An Indian court issued a fresh arrest\" and ending with \"supported by the opposition.\"",
+    "instruction": "Delete the text: \"S. Korea court issues new arrest warrant for Person A\" and the associated body text below it, starting with \"DELHI – An Indian court issued a fresh arrest\" and ending with \"supported by the opposition.\"",
     "image_output": "text_output_all/49355spaper_TheBostonGlobe-2025-1-8@magazinesclubnew_page_003.png",
     "id": 49355,
     "label_output": [
@@ -1289,7 +1289,7 @@
   },
   {
     "image_input": "text_input_all/yanbaor2_ey-icl-harnessing-the-power-of-data.pdf_13.jpg",
-    "instruction": "Add \"► John Smith, Community Outreach Coordinator, Hillsborough County\" after \"► Heather Cazzola, Director of Diversion & Prevention, Eckerd Connects\"",
+    "instruction": "Add \"► Person A, Community Outreach Coordinator, Hillsborough County\" after \"► Person B, Director of Diversion & Prevention, Eckerd Connects\"",
     "image_output": "text_output_all/49384_yanbaor2_ey-icl-harnessing-the-power-of-data.pdf_13.jpg",
     "id": 49384,
     "label_output": [
@@ -1542,7 +1542,7 @@
   },
   {
     "image_input": "text_input_all/magazine_TheEconomist.2023.12.09_page_082.png",
-    "instruction": "Add 'of ' before 'Sandra Day O'Connor' in the title 'Obituary Sandra Day O'Connor'.",
+    "instruction": "Add 'of ' before 'Public Figure A' in the title 'Obituary Public Figure A'.",
     "image_output": "text_output_all/49402_magazine_TheEconomist.2023.12.09_page_082.png",
     "id": 49402,
     "label_output": [
@@ -2232,7 +2232,7 @@
   },
   {
     "image_input": "text_input_all/magazine_TheEconomist.2024.02.24_page_007.png",
-    "instruction": "Add the following text as a new body paragraph after the text discussing the Chinese coast guard boarding a Taiwanese tourist boat, and before the title \"Rich man, poor man\": Venezuela's top court upheld a ban on presidential candidate María Corina Machado, effectively blocking her from running against President Nicolás Maduro in the upcoming election. Opposition leaders condemned the decision as undemocratic.",
+    "instruction": "Add the following text as a new body paragraph after the text discussing the Chinese coast guard boarding a Taiwanese tourist boat, and before the title \"Rich man, poor man\": Venezuela's top court upheld a ban on presidential candidate Candidate A, effectively blocking her from running against President President B in the upcoming election. Opposition leaders condemned the decision as undemocratic.",
     "image_output": "text_output_all/49421_magazine_TheEconomist.2024.02.24_page_007.png",
     "id": 49421,
     "label_output": [
@@ -2324,7 +2324,7 @@
   },
   {
     "image_input": "text_input_all/notes_f7f010b78016aeebd76e56d9283eb67f_51.jpg",
-    "instruction": "在“如:Look at the blackboard, Lily:”的末尾添加文本“(看黑板，莉莉。)”。",
+    "instruction": "在“如:Look at the blackboard, Student A:”的末尾添加文本“(看黑板，莉莉。)”。",
     "image_output": "text_output_all/49425_notes_f7f010b78016aeebd76e56d9283eb67f_51.jpg",
     "id": 49425,
     "label_output": [
@@ -3773,7 +3773,7 @@
   },
   {
     "image_input": "text_input_all/yanbaopptmerge_yanbaoPPT_1220.jpg",
-    "instruction": "在“夏荣臻”下方添加文本“2023年”",
+    "instruction": "在“人物甲”下方添加文本“2023年”",
     "image_output": "text_output_all/49508_yanbaopptmerge_yanbaoPPT_1220.jpg",
     "id": 49508,
     "label_output": [
@@ -4026,7 +4026,7 @@
   },
   {
     "image_input": "text_input_all/docstructbench_llm-raw-scihub-o.O-ijc.22999.pdf_3.jpg",
-    "instruction": "Replace 'HASUMI ET AL.' with 'Hasumi et al.'",
+    "instruction": "Replace 'AUTHOR ET AL.' with 'Author et al.'",
     "image_output": "text_output_all/48327_docstructbench_llm-raw-scihub-o.O-ijc.22999.pdf_3.jpg",
     "id": 48327,
     "language": "english",
@@ -4049,7 +4049,7 @@
   },
   {
     "image_input": "text_input_all/docstructbench_llm-raw-scihub-o.O-j.1365-2117.2002.00179.x.pdf_10.jpg",
-    "instruction": "Replace 'T. Muto and R. J. Steel' with 'T. Muto and R. J. Steel (Authors)'",
+    "instruction": "Replace 'Author A and Author B' with 'Author A and Author B (Authors)'",
     "image_output": "text_output_all/48329_docstructbench_llm-raw-scihub-o.O-j.1365-2117.2002.00179.x.pdf_10.jpg",
     "id": 48329,
     "language": "english",
@@ -4187,7 +4187,7 @@
   },
   {
     "image_input": "text_input_all/docstructbench_llm-raw-scihub-o.O-j.jcp.2010.12.006.pdf_14.jpg",
-    "instruction": "Change 'Y. Sun, P.S.P. Tse/Journal of Computational Physics 230 (2011) 2076-2094' to 'Y. Sun, P.S.P. Tse/Journal of Computational Physics 230 (2011) 2076-2095'",
+    "instruction": "Change 'Author A, Author B/Journal of Computational Physics 230 (2011) 2076-2094' to 'Author A, Author B/Journal of Computational Physics 230 (2011) 2076-2095'",
     "image_output": "text_output_all/48337_docstructbench_llm-raw-scihub-o.O-j.jcp.2010.12.006.pdf_14.jpg",
     "id": 48337,
     "language": "english",
@@ -6487,7 +6487,7 @@
   },
   {
     "image_input": "text_input_all/newspaper_9eafddb83b0f7f99c42ff364b080e2c1_1.jpg",
-    "instruction": "将标题“徐艳丰:田野里走出的秸秆扎刻大师”修改为“徐艳丰：草根艺术家的匠心传承”",
+    "instruction": "将标题“人物甲:田野里走出的秸秆扎刻大师”修改为“人物甲：草根艺术家的匠心传承”",
     "image_output": "text_output_all/48665spaper_9eafddb83b0f7f99c42ff364b080e2c1_1.jpg",
     "id": 48665,
     "language": "simplified_chinese",
@@ -8672,7 +8672,7 @@
   },
   {
     "image_input": "text_input_all/newspaper_TheBostonGlobe-2025-1-8@magazinesclubnew_page_025.png",
-    "instruction": "Replace the text \"Doherty's special path\" with \"Doherty's unique journey\".",
+    "instruction": "Replace the text \"Person A's special path\" with \"Person A's unique journey\".",
     "image_output": "text_output_all/48864spaper_TheBostonGlobe-2025-1-8@magazinesclubnew_page_025.png",
     "id": 48864,
     "language": "english",
@@ -8695,7 +8695,7 @@
   },
   {
     "image_input": "text_input_all/newspaper_The Wall Street Journal - 2025-01-08@magazinesclubnew_page_004.png",
-    "instruction": "Modify Judge Bars Release of Report on Trump to Judge Blocks Release of Report on Trump",
+    "instruction": "Modify Judge Bars Release of Report on Public Figure A to Judge Blocks Release of Report on Public Figure A",
     "image_output": "text_output_all/48865spaper_The Wall Street Journal - 2025-01-08@magazinesclubnew_page_004.png",
     "id": 48865,
     "language": "english",
@@ -8902,7 +8902,7 @@
   },
   {
     "image_input": "text_input_all/yanbaopptmerge_m3_Unit_1_Where_did_you_go.pdf_5.jpg",
-    "instruction": "Change \"Where did Amy go on vacation?\" to \"Where did Sarah go on vacation?\"",
+    "instruction": "Change \"Where did Person A go on vacation?\" to \"Where did Person B go on vacation?\"",
     "image_output": "text_output_all/48241_yanbaopptmerge_m3_Unit_1_Where_did_you_go.pdf_5.jpg",
     "id": 48241,
     "language": "english",
@@ -9638,7 +9638,7 @@
   },
   {
     "image_input": "text_input_all/yanbaopptmerge_yanbaoPPT_4570.jpg",
-    "instruction": "将标题中的“陈忠实”替换为“著名作家陈忠实”",
+    "instruction": "将标题中的“作家甲”替换为“著名作家作家甲”",
     "image_output": "text_output_all/48278_yanbaopptmerge_yanbaoPPT_4570.jpg",
     "id": 48278,
     "language": "simplified_chinese",
@@ -10420,7 +10420,7 @@
   },
   {
     "image_input": "text_input_all/newspaper_TheGuardianUS-2025-1-8@magazinesclubnew_page_041.png",
-    "instruction": "Change the title \"Twin Peaks: The Return - how the reboot of David Lynch's oddball masterpiece improved on the original\" to \"Twin Peaks: The Return - how the reboot of David Lynch's oddball masterpiece differed from the original\"",
+    "instruction": "Change the title \"Twin Peaks: The Return - how the reboot of Creator A's oddball masterpiece improved on the original\" to \"Twin Peaks: The Return - how the reboot of Creator A's oddball masterpiece differed from the original\"",
     "image_output": "text_output_all/48879spaper_TheGuardianUS-2025-1-8@magazinesclubnew_page_041.png",
     "id": 48879,
     "language": "english",
@@ -10466,7 +10466,7 @@
   },
   {
     "image_input": "text_input_all/newspaper_NY Daily News_August 1@magazinesclubnew_page_020.png",
-    "instruction": "Change \"Johansson to guest co-host 'Today' after Hoda takes off\" to \"Scarlett Johansson to Guest Host 'Today' After Hoda's Departure\"",
+    "instruction": "Change \"Johansson to guest co-host 'Today' after Host A takes off\" to \"Actor A to Guest Host 'Today' After Host A's Departure\"",
     "image_output": "text_output_all/48885spaper_NY Daily News_August 1@magazinesclubnew_page_020.png",
     "id": 48885,
     "language": "english",
@@ -10558,7 +10558,7 @@
   },
   {
     "image_input": "text_input_all/newspaper_The Times UK_0801@magazinesclubnew_page_020.png",
-    "instruction": "Change the title \"Why Trump's Greenland pitch makes good sense\" to \"Greenland: A Strategic Acquisition for the US?\".",
+    "instruction": "Change the title \"Why Public Figure A's Greenland pitch makes good sense\" to \"Greenland: A Strategic Acquisition for the US?\".",
     "image_output": "text_output_all/48892spaper_The Times UK_0801@magazinesclubnew_page_020.png",
     "id": 48892,
     "language": "english",
@@ -11984,7 +11984,7 @@
   },
   {
     "image_input": "text_input_all/yanbaor2_2bb182d656d09ada0534548b3ed375c020750a3e5e949d4ea0ea20536bcbeb20.pdf_0.jpg",
-    "instruction": "将“文/刘明华冯晔李美虹”替换为“文/王小明 张三 李四”",
+    "instruction": "将“文/作者甲作者乙作者丙”替换为“文/作者甲 匿名人员甲 作者丙”",
     "image_output": "text_output_all/48756_yanbaor2_2bb182d656d09ada0534548b3ed375c020750a3e5e949d4ea0ea20536bcbeb20.pdf_0.jpg",
     "id": 48756,
     "language": "simplified_chinese",
@@ -12099,7 +12099,7 @@
   },
   {
     "image_input": "text_input_all/yanbaor2_a6a80b48db3438977793c75185e980ee4aff22f79083427cb03ea4134f7b241f.pdf_67.jpg",
-    "instruction": "Replace the title \"Interview with Vladislav Kreynin.\" with \"An Interview with Vladislav Kreynin\"",
+    "instruction": "Replace the title \"Interview with Interviewee A.\" with \"An Interview with Interviewee A\"",
     "image_output": "text_output_all/48763_yanbaor2_a6a80b48db3438977793c75185e980ee4aff22f79083427cb03ea4134f7b241f.pdf_67.jpg",
     "id": 48763,
     "language": "english",
@@ -15112,7 +15112,7 @@
   },
   {
     "image_input": "text_input_all/jiaocaineedrop_jiaocai_needrop_en_1449.jpg",
-    "instruction": "Replace \"Lesson 1 May I speak to Mary?\" with \"Lesson 1 May I speak to John?\"",
+    "instruction": "Replace \"Lesson 1 May I speak to Person A?\" with \"Lesson 1 May I speak to Person B?\"",
     "image_output": "text_output_all/48458_jiaocaineedrop_jiaocai_needrop_en_1449.jpg",
     "id": 48458,
     "language": "en_ch_mixed",
